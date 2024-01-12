@@ -1,0 +1,330 @@
+<div class="topnav">
+    <input type="text" placeholder="Search..">
+  </div>
+  <!-- Control buttons -->
+<link href="search.css" rel="stylesheet">
+<script src="search.js"></script>
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('fav')"> Fruits and vegetables</button>
+    <button class="btn" onclick="filterSelection('sn')"> Snacks</button>
+    <button class="btn" onclick="filterSelection('bev')"> Beverages</button>
+    <button class="btn" onclick="filterSelection('fom')"> Food grains/oil and masalas</button>
+    <button class="btn" onclick="filterSelection('dairy')"> Dairy Products</button>
+  </div>
+  
+  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+  <div class="container">
+    <div class="filterDiv fav">Carrot</div>
+    <div class="filterDiv colors fav">Orange</div>
+    <div class="filterDiv fav">Apple</div>
+    <div class="filterDiv sn">Maggie</div>
+    <div class="filterDiv sn">Corn Flakes</div>
+    <div class="filterDiv sn">Biscuits</div>
+    <div class="filterDiv bev">Tea</div>
+    <div class="filterDiv bev">Coffee</div>
+    <div class="filterDiv bev">Green Tea</div>
+    <div class="filterDiv fom">Atta</div>
+    <div class="filterDiv fom">Basmati Rice</div>
+    <div class="filterDiv fom">Chilli Powder </div>
+    <div class="filterDiv fom">Coconut Oil</div>
+    <div class="filterDiv dairy">Milk</div>
+    <div class="filterDiv dairy">Curd</div>
+    <div class="filterDiv dairy">Cheese</div>
+  </div>
+  <!-- Product-Section HTML Code STARTS -->
+<link href="search.css" rel="stylesheet">
+<div class="width-100 margin-top-50">
+    <div class="container">
+      <div class="width-25">
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="basmathi.jpg">
+                <button class="button button1">Add to cart</button>
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">Basmathi Rice</a>
+              </p>
+              <p class="product-rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <span>1kg</span>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">Rs.100</span>
+                <span class="product-original-price">Rs.120</span>
+                <span class="product-discount">30%OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="width-25">
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="carrots.jpg">
+                <button class="button button2">Add to cart</button>
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">Carrot</a>
+              </p>
+              <p class="product-rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <span>1kg</span>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">Rs.66</span>
+                <span class="product-original-price">Rs.80</span>
+                <span class="product-discount">20%OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="width-25">
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="amul.jpg">
+                <button class="button button3">Add to cart</button>
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">Amul Cheese Slices</a>
+              </p>
+              <p class="product-rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <span>50 slices</span>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">Rs.409.00</span>
+                <span class="product-original-price">Rs.465</span>
+                <span class="product-discount">40%OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="width-25">
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="maggie.jpg">
+                <button class="button button4">Add to cart</button>
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">2-min MAGGIE masala Instant Noodles</a>
+              </p>
+              <p class="product-rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <span>560g pouch</span>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">Rs95.8</span>
+                <span class="product-original-price">Rs.112</span>
+                <span class="product-discount">10%OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="width-25">
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="bru-coffee.jpg">
+                <button class="button button5">Add to cart</button>
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">BRU Instant Coffee</a>
+              </p>
+              <p class="product-rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <span>500g</span>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">Rs.676.8</span>
+                <span class="product-original-price">Rs.720</span>
+                <span class="product-discount">40%OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="width-25">
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="egg.jpg">
+                <button class="button button6">Add to cart</button>
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">Farm Eggs</a>
+              </p>
+              <p class="product-rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <span>3 x 12pcs</span>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">Rs.381.00</span>
+                <span class="product-original-price">Rs.450</span>
+                <span class="product-discount">35%OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="width-25">
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="atta.jpg">
+                <button class="button button7">Add to cart</button>
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">Aashirvaad Atta</a>
+              </p>
+              <p class="product-rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <span>10kg</span>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">Rs.428.00</span>
+                <span class="product-original-price">Rs.540</span>
+                <span class="product-discount">70%OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="width-25">
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="sweet.jpeg">
+                <button class="button button8">Add to cart</button>
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">Frozen Sweet Corn</a>
+              </p>
+              <p class="product-rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <span>1kg pouch</span>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">Rs.139.00</span>
+                <span class="product-original-price">Rs.200</span>
+                <span class="product-discount">31%OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="width-25">
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="corn.jpg">
+                <button class="button button9">Add to cart</button>
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">Corn Flakes</a>
+              </p>
+              <p class="product-rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <span>2 x 875g Multipack</span>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">Rs.580.00</span>
+                <span class="product-original-price">Rs.720</span>
+                <span class="product-discount">40%OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="width-25">
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="green.jpg">
+                <button class="button button10">Add to cart</button>
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">Green Tea</a>
+              </p>
+              <p class="product-rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <span>5 teabags</span>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">Rs.19.00</span>
+                <span class="product-original-price">Rs.40</span>
+                <span class="product-discount">10%OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  <!---------- Product-Section HTML Code Ends --------->
